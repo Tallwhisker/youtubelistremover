@@ -1,32 +1,27 @@
 {
   "manifest_version": 2,
-  "name": "Youtube List Remover",
+  "name": "Youtube List Trimmer",
   "version": "1.0",
-
-  "description": "Adds a button that removes the youtube playlists and refreshes the tab of your current video.",
+  "description": "Adds a button that removes youtube playlist from your address bar and refreshes the tab of your current video.",
   "icons": {
-    "48": "icons/listremover-48.png"
+    "48": "icons/listremover-48.png",
+    "32": "icons/listremover-32.png"
   },
-  "homepage_url": "https://github.com/Tallwhisker/youtubelistremover",
-
   "browser_specific_settings": {
     "gecko": {
-      "id": "164023995+Tallwhisker@users.noreply.github.com"
+      "id": "{a80025e7-f29c-4ff8-8670-9c6b70dfb87d}"
     }
   },
-
   "permissions": [
     "activeTab"
   ],
-
   "background": {
     "scripts": [
       "background.js"
     ]
   },
-
   "browser_action": {
     "default_icon": "icons/listremover-32.png",
-    "default_title": "List Remover"
+    "default_title": "Trim Youtube Lists"
   }
 }
