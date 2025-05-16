@@ -3,10 +3,11 @@
   "name": "Youtube List Remover",
   "version": "1.0",
 
-  "description": "Trims the youtube URL to remove the watchlist parameter and updates the current tab.",
+  "description": "Adds a button that removes the youtube playlists and refreshes the tab of your current video.",
   "icons": {
     "48": "icons/listremover-48.png"
   },
+  "homepage_url": "https://github.com/Tallwhisker/youtubelistremover",
 
   "browser_specific_settings": {
     "gecko": {
