@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   "name": "Youtube List Trimmer",
-  "version": "1.0",
-  "description": "Adds a button that removes youtube playlist from your address bar and refreshes the tab of your current video.",
+  "version": "1.1",
+  "description": "Adds a button that removes youtube playlist from your address and refreshes the tab.",
   "icons": {
     "48": "icons/listremover-48.png",
     "32": "icons/listremover-32.png"
